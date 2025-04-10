@@ -218,9 +218,8 @@ src/CMakeFiles/ST-1.info.dir/clean:
 # Target rules for target test/CMakeFiles/ST-1.test.dir
 
 # All Build rule for target.
-test/CMakeFiles/ST-1.test.dir/all: src/CMakeFiles/ST-1.dir/all
 test/CMakeFiles/ST-1.test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-test/CMakeFiles/ST-1.test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/ST-1.test.dir/all: src/CMakeFiles/ST-1.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ST-1.test.dir/build.make test/CMakeFiles/ST-1.test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ST-1.test.dir/build.make test/CMakeFiles/ST-1.test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/max/ST-1/build/CMakeFiles --progress-num=5,6,7 "Built target ST-1.test"
@@ -228,7 +227,7 @@ test/CMakeFiles/ST-1.test.dir/all: _deps/googletest-build/googletest/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/ST-1.test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/ST-1/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/ST-1/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/ST-1.test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/max/ST-1/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/ST-1.test.dir/rule

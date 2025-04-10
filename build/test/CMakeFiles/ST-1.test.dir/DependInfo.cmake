@@ -16,7 +16,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/max/ST-1/build/src/CMakeFiles/ST-1.dir/DependInfo.cmake"
   "/home/max/ST-1/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/max/ST-1/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -g CMakeFiles/ST-1.test.dir/AllTests.cpp.o CMakeFiles/ST-1.test.dir/tests.cpp.o -o ../bin/ST-1.test  -Wl,-rpath,/home/max/ST-1/build/src ../src/libST-1.so ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a 
+/usr/bin/c++  -O3 -g CMakeFiles/ST-1.test.dir/AllTests.cpp.o CMakeFiles/ST-1.test.dir/tests.cpp.o -o ../bin/ST-1.test  -Wl,-rpath,/home/max/ST-1/build/src ../src/libST-1.so ../lib/libgtest.a 

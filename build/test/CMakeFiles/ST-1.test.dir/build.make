@@ -110,8 +110,6 @@ bin/ST-1.test: test/CMakeFiles/ST-1.test.dir/tests.cpp.o
 bin/ST-1.test: test/CMakeFiles/ST-1.test.dir/build.make
 bin/ST-1.test: src/libST-1.so
 bin/ST-1.test: lib/libgtest.a
-bin/ST-1.test: lib/libgtest_main.a
-bin/ST-1.test: lib/libgtest.a
 bin/ST-1.test: test/CMakeFiles/ST-1.test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/ST-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/ST-1.test"
 	cd /home/max/ST-1/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ST-1.test.dir/link.txt --verbose=$(VERBOSE)

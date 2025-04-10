@@ -1,4 +1,3 @@
-
 include_directories(${${PROJECT_NAME}_SOURCE_DIR}/include)
 set(header ${${PROJECT_NAME}_SOURCE_DIR}/include)
 set(src ${${PROJECT_NAME}_SOURCE_DIR}/src/alg.cpp)

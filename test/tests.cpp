@@ -14,10 +14,10 @@ TEST(CheckPrimeTest, BasicCases) {
     EXPECT_TRUE(checkPrime(17));
 }
 
-// Дополнительный тест для функции checkPrime() с большими числами
+
 TEST(CheckPrimeTest, LargeNumberTest) {
-    EXPECT_TRUE(checkPrime(97));    // 97 - простое
-    EXPECT_FALSE(checkPrime(100));  // 100 - составное
+    EXPECT_TRUE(checkPrime(97));
+    EXPECT_FALSE(checkPrime(100));
 }
 
 // Тесты для функции nPrime()
@@ -31,14 +31,12 @@ TEST(NPrimeTest, FirstFewPrimes) {
 
 // Дополнительный тест для функции nPrime() для промежуточных значений
 TEST(NPrimeTest, MidRangeTest) {
-    // 7-е простое число = 17, 8-е простое число = 19
     EXPECT_EQ(nPrime(7), 17);
     EXPECT_EQ(nPrime(8), 19);
 }
 
 // Крайний тест для функции nPrime() с более высоким номером
 TEST(NPrimeTest, ExtremeCaseHighN) {
-    // 100-е простое число должно быть 541.
     EXPECT_EQ(nPrime(100), 541);
 }
 
@@ -53,14 +51,11 @@ TEST(NextPrimeTest, NextPrimeBasic) {
 
 // Дополнительный тест для функции nextPrime() для граничного случая
 TEST(NextPrimeTest, EdgeCaseTest) {
-    // Следующее простое число после 97 (простое) равно 101
     EXPECT_EQ(nextPrime(97), 101);
 }
 
 // Крайний тест для функции nextPrime() с очень большим входным значением
 TEST(NextPrimeTest, ExtremeLargeInputTest) {
-    // Для большого значения проверяем, что найденное следующее число действительно простое,
-    // и что оно больше исходного.
     uint64_t value = 1000000;
     uint64_t next = nextPrime(value);
     EXPECT_TRUE(checkPrime(next));
@@ -69,20 +64,16 @@ TEST(NextPrimeTest, ExtremeLargeInputTest) {
 
 // Тесты для функции sumPrime()
 TEST(SumPrimeTest, SumUpToBoundaries) {
-    // Сумма простых чисел до 10: 2 + 3 + 5 + 7 = 17
     EXPECT_EQ(sumPrime(10), 17);
-    // Если hbound меньше 2, сумма должна быть 0
     EXPECT_EQ(sumPrime(2), 0);
 }
 
 // Дополнительный тест для sumPrime() на более широком промежутке
 TEST(SumPrimeTest, SumUpToTwenty) {
-    // Простые числа до 20: 2, 3, 5, 7, 11, 13, 17, 19, сумма = 77
     EXPECT_EQ(sumPrime(20), 77);
 }
 
 // Дополнительный тест для функции sumPrime() для проверки другого промежутка
 TEST(SumPrimeTest, SumPrimeExtendedTest) {
-    // Простые числа до 30: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, сумма = 129
     EXPECT_EQ(sumPrime(30), 129);
 }
