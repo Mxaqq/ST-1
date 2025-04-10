@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -g CMakeFiles/ST-1.info.dir/main.cpp.o -o ../bin/ST-1.info  -Wl,-rpath,/home/max/ST-1/build/src libST-1.so 
